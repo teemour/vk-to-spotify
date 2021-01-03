@@ -25,5 +25,5 @@ After completing this process, you can see which tracks were not found and will 
 Now we need to give a name to the playlist to which all tracks will be added, as well as its type, public or private.<br>
 Now, just watch the process as it ends, just check your playlists on Spotify. :yum:
 
-## Why do I need this page?
-Just to redirect to it and all that. Thanks for your attention.
+## Experience
+I quietly grab all my couple of thousand tracks, although only about 70% of them were found, but now I can safely listen to all my music from VK in Spotify.
