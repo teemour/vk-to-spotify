@@ -7,7 +7,7 @@ Made at the request of my beloved wife, who started using Spotify after its rele
 
 ## Running
 Working on Python 3.6+.
-Go to the directory with ``vk-to-spotify`` and just run it. 
+Go to the directory with ``vk-to-spotify.py`` and just run it. 
 ```bash
 python vk-to-spotify.py
 ```
