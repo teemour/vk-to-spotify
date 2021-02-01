@@ -6,11 +6,14 @@ All features working in CLI, so, just follow the lines and all be okay!
 Made at the request of my beloved wife, who started using Spotify after its release in our country. 💕
 
 ## Running
-Working on Python 3.6+.
-Go to the directory with ``vk-to-spotify.py`` and just run it. 
+Working on Python 3.6+. Go to the directory with vk-to-spotify.py, install and run it.
 ```bash
+python setup.py install
+
 python vk-to-spotify.py
 ```
+
+Tip: If you encounter errors with no access to the directory, run as an administrator.
 
 ## How it works?
 ### Part I: Grabbing from VK
