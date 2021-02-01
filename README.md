@@ -8,14 +8,15 @@ Made at the request of my beloved wife, who started using Spotify after its rele
 
 ## Running
 
-Working on Python 3.6+. Go to the directory with ``vk-to-spotify.py`` and just run it.
+Working on Python 3.6+. Go to the directory with ``vk-to-spotify.py``, install and run it.
 
 ```bash
-# Firstly, for using go to the directory with the files
 python setup.py install
-# After installation, feel free to run the utility
+
 python vk-to-spotify.py
 ```
+
+Tip: If you encounter errors with no access to the directory, run as an administrator.
 
 ## How it works?
 
