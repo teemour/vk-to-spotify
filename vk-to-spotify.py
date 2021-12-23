@@ -115,14 +115,17 @@ class SpotifyClient:
         self.client = Spotify(auth=self.token)
 
     def find_track_uri(self, label):
-        search = self.client.search(label)
+        try:
+            search = self.client.search(label)
 
-        items = search['tracks']['items']
+            items = search['tracks']['items']
 
-        if len(items) > 0:
-            return items[0]['uri']
+            if len(items) > 0:
+                return items[0]['uri']
 
-        return None
+        except:
+            print(f"Error finding track uri for {label}")
+
 
     def grab_tracks(self, name):
         songs = grab_dump(name)
@@ -253,6 +256,7 @@ def import_tracks_to_spotify():
         name = input('Name: ')
         tracks_uris = spotify.grab_tracks(name)
 
+    """
     print('\nOkay, let\'s create a playlist to add tracks to')
     playlist_name = input('Type its name: ')
 
@@ -260,6 +264,8 @@ def import_tracks_to_spotify():
     is_public = True if input('Yes - y, no - n: ') == 'y' else False
 
     playlist_id = spotify.create_playlist(playlist_name, is_public)
+    """
+    playlist_id  = input("Let's add these tracks to a playlist. Copy playlist id: ")
 
     spotify.playlist_add(playlist_id, tracks_uris)
 
